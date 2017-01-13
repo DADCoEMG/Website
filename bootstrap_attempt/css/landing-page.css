@@ -37,7 +37,7 @@ h6 {
 
 .intro-header {
     padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-bottom: 50px ;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/background.jpg) no-repeat center center;
@@ -177,17 +177,58 @@ p.copyright {
 
 
 .bio-dan {
-    padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px
     padding-right: 500px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/dan.jpg) no-repeat left;
-    /*background: url(../img/dan.jpg) no-repeat center ;*/
-    background-size: 300px;
-    background-position:
+    background: url(../img/dan.jpg) no-repeat top;
+    background-size: 100% auto;
 
 }
+
+.bio-tre {
+    padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px
+    padding-right: 500px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/tre.jpg) no-repeat top;
+    background-size: 100% auto;
+
+}
+.bio-colin {
+    padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px
+    padding-right: 500px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/colin.jpg) no-repeat top;
+    background-size: 100% auto;
+
+}
+.bio-john {
+    padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px
+    padding-right: 500px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/john.jpg) no-repeat top;
+    background-size: 100% auto;
+
+}
+.bio-divider {
+    width: 200px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.row-bios {
+  margin-top: 50px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 
 .top-banner-margin {
 
