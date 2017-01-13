@@ -41,7 +41,7 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/background.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 .intro-message {
