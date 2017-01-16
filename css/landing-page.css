@@ -178,8 +178,7 @@ p.copyright {
 
 .bio-dan {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px
-    padding-right: 500px;
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/about_us/dan.jpg) no-repeat top;
@@ -189,8 +188,7 @@ p.copyright {
 
 .bio-tre {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px
-    padding-right: 500px;
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/about_us/tre.jpg) no-repeat top;
@@ -199,8 +197,7 @@ p.copyright {
 }
 .bio-colin {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px
-    padding-right: 500px;
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/about_us/colin.jpg) no-repeat top;
@@ -209,14 +206,14 @@ p.copyright {
 }
 .bio-john {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px
-    padding-right: 500px;
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/about_us/john.jpg) no-repeat top;
     background-size: 100% auto;
 
 }
+
 .bio-divider {
     width: 200px;
     border-top: 1px solid #f8f8f8;
