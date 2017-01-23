@@ -39,9 +39,10 @@ h6 {
     padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px ;
     text-align: center;
+    border-bottom: 1px solid #e7e7e7;
     color: #f8f8f8;
-    background: url(../img/background.jpg) no-repeat center center;
-    background-size: 100% auto;
+    background: url(../img/background.jpg) no-repeat top center;
+    background-size: cover auto;
 }
 
 .intro-message {
@@ -100,6 +101,8 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
 }
 
 .content-section-b {
@@ -228,7 +231,7 @@ p.copyright {
 }
 
 .bio-message > h3{
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.);
 }
 
 .bio-message > p{
