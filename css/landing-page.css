@@ -89,6 +89,9 @@ h6 {
     .intro-divider {
         width: 100%;
     }
+    .intro-header{
+      background: url(../img/background_mobile.jpg) no-repeat top center;
+    }
 }
 
 .network-name {
