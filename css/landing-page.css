@@ -36,13 +36,13 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px ;
+    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+
     text-align: center;
     border-bottom: 1px solid #e7e7e7;
-    color: #f8f8f8;
-    background: url(../img/background.jpg) no-repeat top center;
-    background-size: contain auto;
+    color: #ffffff;
+    background: url(../img/background_alt2.jpg) no-repeat center center;
+    background-size: cover auto;
 }
 
 .intro-message {
@@ -53,18 +53,18 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    color: #ffffff;
 }
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 1px solid #ffffff;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: #ffffff;
 }
 
 @media(max-width:767px) {
@@ -90,7 +90,7 @@ h6 {
         width: 100%;
     }
     .intro-header{
-      background: url(../img/background_mobile.jpg) no-repeat top center;
+      background: url(../img/background_alt1.jpg) no-repeat top center;
     }
 }
 
@@ -103,25 +103,40 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #e7e7e7;
-    border-top: 1px solid #e7e7e7;
+    background-color: #CCDBDC;
+
 }
 
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #CEE5F2;
 }
 
 .section-heading {
     margin-bottom: 30px;
+    color: #546A76;
 }
+
+.section-lead{
+  color: #546A76;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .section-lead {
+    font-size: 21px;
+  }
+}
+
 
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 3px solid #e7e7e7;
+    border-top: 3px solid #546A76;
 }
 
 .banner {
