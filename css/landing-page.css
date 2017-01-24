@@ -90,7 +90,8 @@ h6 {
         width: 100%;
     }
     .intro-header{
-      background: url(../img/background_alt1.jpg) no-repeat top center;
+      background: url(../img/background_alt2.jpg) no-repeat bottom center;
+      background-size: 200%;
     }
 }
 
@@ -142,13 +143,13 @@ h6 {
 .banner {
     padding: 50px 0;
     color: #f8f8f8;
-    background: url(../img/footer.jpg) no-repeat bottom center;
+    background: url(../img/footer.jpg) no-repeat center center;
     background-size: 100%;
 }
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+    color: #ffffff;
     font-size: 3em;
 }
 
@@ -195,10 +196,11 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
 }
 
 p.copyright {
+    color: #546A76;
     margin: 15px 0 0;
 }
 
@@ -260,6 +262,38 @@ p.copyright {
 
 .bio-message > p{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+
+.index-image-one{
+    padding-top: 40%;
+    background: url(../img/side.jpg) no-repeat center;
+    background-size: contain;
+}
+.index-image-two{
+    padding-top: 40%;
+    background: url(../img/emg.jpg) no-repeat center;
+    background-size: contain;
+}
+.index-image-three{
+    padding-top: 40%;
+    background: url(../img/watch_prototype.png) no-repeat center;
+    background-size: contain;
+}
+
+@media(max-width:767px){
+  .index-image-one{
+    padding-top: 70%;
+    background-size: contain auto;
+  }
+  .index-image-two{
+    padding-top: 70%;
+    background-size: contain auto;
+  }
+  .index-image-three{
+    padding-top: 70%;
+    background-size: 95% auto;
+  }
+
 }
 
 .row-bios {
