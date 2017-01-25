@@ -110,8 +110,6 @@ h6 {
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
     background-color: #CEE5F2;
 }
 
@@ -196,7 +194,6 @@ p.copyright {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
     background: url(../img/about_us/dan.jpg) no-repeat top;
     background-size: 100% auto;
 
@@ -206,7 +203,6 @@ p.copyright {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
     background: url(../img/about_us/tre.jpg) no-repeat top;
     background-size: 100% auto;
 
@@ -215,7 +211,6 @@ p.copyright {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
     background: url(../img/about_us/colin.jpg) no-repeat top;
     background-size: 100% auto;
 
@@ -224,7 +219,6 @@ p.copyright {
     padding-top: 20%; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
     background: url(../img/about_us/john.jpg) no-repeat top;
     background-size: 100% auto;
 
@@ -239,8 +233,7 @@ p.copyright {
 .bio-message {
     position: relative;
     padding-top: 20%;
-    padding-bottom: 20%;
-    top: 120px;
+    top: 70px;
 }
 
 .bio-message > h3{
@@ -248,7 +241,7 @@ p.copyright {
 }
 
 .bio-message > p{
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+    color: #FFFFFF;
 }
 
 .index-image-one{
@@ -284,7 +277,12 @@ p.copyright {
 }
 
 .row-bios {
+  color: #CEE5F2;
   margin-top: 50px;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.bios-div{
+  background-color: #CEE5F2;
 }
