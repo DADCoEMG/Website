@@ -1,0 +1,7 @@
+"Who are we" is really vague. Change that to maybe the slogan
+
+Add a "learning page" for EMG and stuff, dev blogs, video etc.
+
+Then go into the story. Put a button that links to the EMG page.
+
+Tell the story on About Us section first, then as you scroll make the pictures clickable. Maybe popouts.

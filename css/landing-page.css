@@ -8,6 +8,31 @@
  body {font-family: Verdana,sans-serif;}
  .mySlides {display:none}
 
+.learning-header{
+  padding-top:50px;
+  padding-bottom: 5px;
+  background-color: #CEE5F2;
+  text-align: center;
+  color: #546A76;
+}
+.learning-header h1{
+  font-size:54px;
+
+}
+.embed-video-spacer{
+  padding-top:100px;
+  box-shadow: 8px 8px 10px #aaa;
+
+}
+.learning-header-spacer{
+    padding-bottom:
+    float: left;
+    padding-right: 150px;
+    width: 200px;
+    border-top: 3px solid #546A76;
+
+}
+
  /* Slideshow container */
  .slideshow-container {
    padding-top: 75px;
@@ -16,7 +41,7 @@
    margin: auto;
  }
  .bg-slides{
- background-color: #CEE5F2;
+   background-color: #CEE5F2;
  }
 
  /* Caption text */
@@ -69,17 +94,11 @@
    from {opacity:0.6}
    to {opacity:1}
 
-   /*
-   from {opacity: .4}
-   to {opacity: 1}*/
  }
 
  @keyframes fade {
    from {opacity:0.6}
    to {opacity:1}
-   /*
-   from {opacity: .4}
-   to {opacity: 1}*/
  }
 
  /* On smaller screens, decrease text size */
@@ -143,7 +162,7 @@ h6 {
     padding-bottom:5%;
     text-align: center;
     color: #ffffff;
-    background: url(../img/cover_bg/06.jpg) no-repeat top center;
+    background: url(../img/cover_bg/09.jpg) no-repeat top center;
     background-size: 100% auto;
     background-color: #CEE5F2;
     box-shadow: 8px 8px 10px #aaa;
@@ -222,6 +241,11 @@ h6 {
     background-color: #CCDBDC;
 
 }
+.content-section-a ul{
+  color: #546A76;
+  font-size: 18px;
+  font-weight: 50;
+}
 
 .content-section-b {
     padding: 50px 0;
@@ -231,6 +255,7 @@ h6 {
 .section-heading {
     margin-bottom: 30px;
     color: #546A76;
+    text-align: center;
 }
 
 .section-lead{
@@ -240,11 +265,13 @@ h6 {
   font-weight: 100;
   line-height: 1.4;
 }
+
 @media (min-width: 768px) {
   .section-lead {
     font-size: 21px;
   }
 }
+
 
 
 .section-heading-spacer {
@@ -375,6 +402,7 @@ p.copyright {
     box-shadow: 8px 8px 10px #aaa;
 }
 .index-image-three{
+    margin-top: 7%;
     padding-top: 26%;
     background: url(../img/watch_prototype.png) no-repeat center;
     background-size: contain;
