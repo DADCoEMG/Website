@@ -143,7 +143,7 @@ h6 {
     text-align: center;
     color: #ffffff;
     background: url(../img/background.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-color: #CEE5F2;
     box-shadow: 8px 8px 10px #aaa;
 }
@@ -153,7 +153,7 @@ h6 {
     text-align: center;
     color: #ffffff;
     background: url(../img/cover_bg/03.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-color: #CEE5F2;
     box-shadow: 8px 8px 10px #aaa;
 }
@@ -163,7 +163,7 @@ h6 {
     text-align: center;
     color: #ffffff;
     background: url(../img/cover_bg/09.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-color: #CEE5F2;
     box-shadow: 8px 8px 10px #aaa;
 }
@@ -173,7 +173,7 @@ h6 {
     text-align: center;
     color: #ffffff;
     background: url(../img/footer.jpg) no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-color: #CEE5F2;
     box-shadow: 8px 8px 10px #aaa;
 }
@@ -460,4 +460,10 @@ p.copyright {
 
 .bios-div{
   background-color: #CEE5F2;
+}
+
+.logo{
+  padding-right: 80px;
+  background: url(../img/logo.png) no-repeat center;
+  background-size: 100%;
 }
